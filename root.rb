@@ -40,6 +40,7 @@ class Root < Formula
     # http://root.cern.ch/phpBB3/viewtopic.php?f=3&t=15072
     args = %W[
       --all
+      --enable-table
       --enable-builtin-glew
       --enable-builtin-freetype
       --prefix=#{prefix}
